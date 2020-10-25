@@ -16567,8 +16567,8 @@ header.header--intro .button{
 .causes-item .img--bg{
     -o-object-position:center center;
     object-position:center center;
-    font-family:"object-fit: cover;
-     object-position: center center";
+    object-fit: cover;
+    object-position: center center;
     z-index:1
 }
 .causes-item__badge{
