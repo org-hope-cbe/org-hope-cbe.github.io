@@ -15107,9 +15107,17 @@ header.header--inner{
     -o-transition:opacity .3s;
     transition:opacity .3s
 }
+
+@media only screen and (min-width: 700px){
+    .dropdown-trigger__item,.dropdown-trigger__item::after,.dropdown-trigger__item::before{
+        display: none;
+        visibility: hidden;
+    }
+}
+
 @media only screen and (min-width:992px){
     .dropdown-trigger__item,.dropdown-trigger__item::after,.dropdown-trigger__item::before{
-        background:#fff
+        background:#fff;
     }
 }
 .dropdown-trigger__item,.dropdown-trigger__item::before{
